@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m5stack/M5Unified.git"
+    "url": "https://github.com/kevindt/M5Unified.git"
   },
   "dependencies": [
     {
-      "name": "M5GFX",
-      "version": ">=0.1.11"
+      "name": "M5GFX-KDT",
+      "url": "https://kevindt.com/kevindt/M5UM5GFX.git" 
     }
   ],
   "version": "0.1.11",
   "frameworks": ["arduino", "espidf", "*"],
-  "platforms": ["espressif32", "native"],
+  "platforms": ["espressif32", "native", "*"],
   "headers": "M5Unified.h"
 }
