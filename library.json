@@ -18,6 +18,6 @@
   ],
   "version": "0.1.11",
   "frameworks": ["arduino", "espidf", "*"],
-  "platforms": ["espressif32", "native", "*"],
+  "platforms": ["espressif32", "RP2040", "native"],
   "headers": "M5Unified.h"
 }
